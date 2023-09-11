@@ -1,0 +1,247 @@
+/* *{
+    margin-top: 0px;
+} */
+.navbar{
+    background-color: #352F2D;
+    height: 60px;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    position: sticky;
+    top: 0px; 
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* box2 */
+.nav-address{
+    height: 50px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-bottom: 0px;
+    margin-left: 16px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-top: 0px;
+}
+/* box3 */
+.nav-search{
+ display: flex; 
+ justify-content: space-evenly;
+ background-color: pink;
+ height: 40px;
+ width: 620px;
+ border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid rgb(255, 174, 0);
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 174, 0
+    );
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
+.country-search{
+    background-color: #352F2D;
+    border: none;
+}
+.cse{
+    background-color: #352F2D;
+    border: none;
+    color: white;  
+    font-size: 1rem;  
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+    margin-bottom: 0px;
+}
+.signi{
+    margin-bottom: 0px;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 0px;
+}
+/* box5 */
+.nav-cart{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+.nav-cart p{
+    font-size: 1.5rem;
+}
+/* second panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    /* color: white; */
+}
+.hyp{
+    font-size: 200rem;
+}
+.panel-all span{
+    font-size: 1.5rem;
+    border: transparent;
+}
+.panel-all:hover{
+    border: 2px solid white;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+    border: transparent;
+}
+.panel-ops p:hover{
+    cursor: pointer;
+    border: 1.5px solid white;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: transparent;
+}
+.panel-deals:hover{
+    border: 1.5px solid white;
+}
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+/*shop-section*/
+.shop-section{
+    background-color: #e2e7e6;;
+    display: grid;
+    grid-template-rows: 10px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    height: 400px;
+    margin-top: 10px;
+}
+.box{
+    height: 400px;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 0px 15px 0px;
+}
+.shop-section p{
+    color: #007185;
+    padding-bottom: 50px;
+}
+.shop-section p:hover{
+    color: blue;
+    cursor: pointer;
+}
+.box1img{
+    margin-bottom: 0px;
+    background-size: cover;
+}
+.shop-section h2{
+    text-emphasis-style: ;
+}
+.btp{
+    background-size: cover;
+    background-color: rgb(17, 131, 101);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 40px;
+}
+.btp:hover{
+    color: black;
+    cursor: pointer;
+}
+footer{
+    background-color: #212626;
+    color: white;
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.broader{
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: top;
+}
+.broader p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
